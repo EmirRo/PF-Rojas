@@ -1,0 +1,35 @@
+.imagenPrincipal{
+    background-image: url(../img/interior-gde03e546e_640.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-inline: 500px;
+
+    h1{
+        color: $secondaryColor;
+        background-color: rgba(0, 0, 0, 0.485);
+        padding-inline: 20px;
+    }
+
+    p{
+        color: $secondaryColor;
+        background-color: rgba(0, 0, 0, 0.485);
+        padding-inline: 10px;
+        text-align: center; 
+    
+        &::first-line{
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+            font-weight: bold;
+        }
+        
+        &::selection{
+            background-color: $secondaryColor;
+            color: $mainColor;
+        }
+    }
+}

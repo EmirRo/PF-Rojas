@@ -1,0 +1,45 @@
+footer{
+    background-color: gray;
+    display: flex;
+    padding-inline: 30px;
+    padding-block: 30px;
+    /* border: 5px solid black; */
+    font-size: 20px;
+    /* text-align: center; */
+    text-transform: capitalize;
+    justify-content: space-between;
+    color: white;
+    
+    .texto{
+
+        .footer p{
+            font-style: italic;
+            font-size: 25px;
+        }
+
+        
+        .pie__logo {
+            width: 100px;
+            height: auto;
+}
+
+    }
+
+    .linkred{
+        display: flex;
+
+        div{
+            a{
+                color: white;
+                text-decoration: none;
+                font-size: 25px;
+                padding: 15px;
+            }
+
+            p{
+                font-style: italic;
+                font-size: 25px;
+            }
+        }
+    }
+}
