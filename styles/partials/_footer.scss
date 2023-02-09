@@ -3,13 +3,11 @@ footer{
     display: flex;
     padding-inline: 30px;
     padding-block: 30px;
-    /* border: 5px solid black; */
     font-size: 20px;
-    /* text-align: center; */
     text-transform: capitalize;
     justify-content: space-between;
     color: white;
-    
+
     .texto{
 
         .footer p{
@@ -21,7 +19,8 @@ footer{
         .pie__logo {
             width: 100px;
             height: auto;
-}
+        }
+
 
     }
 
@@ -32,14 +31,50 @@ footer{
             a{
                 color: white;
                 text-decoration: none;
-                font-size: 25px;
+                font-size: 35px;
                 padding: 15px;
             }
-
-            p{
-                font-style: italic;
-                font-size: 25px;
+            
+            a:hover{
+                color: rgb(93, 93, 93);
             }
         }
+             p{
+                font-style: italic;
+                font-size: 25px;
+             }
+         }
     }
-}
+
+    .linkprop  {
+
+            color: white;
+            text-decoration: none;
+            font-style: italic;
+
+            &::selection{
+                background-color: $secondaryColor;
+                color: $mainColor;
+                }
+        }
+        
+
+        ul{
+
+
+            li{
+                text-decoration: none;
+                font-style: italic;
+            }
+
+        }
+       
+
+
+
+
+  
+
+
+   
+

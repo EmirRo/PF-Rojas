@@ -25,10 +25,7 @@
        
         padding-inline: 25px;
         padding-block: 25px;
-        /* border: 5px solid black; */
-        font-size: 15px;
-        /* text-align: center; */
-       
+        font-size: 15px;  
     }
     
     .footer p{
@@ -45,7 +42,7 @@
     }
 
     
-    footer div p{ 
+    .linkprop{ 
         font-size: 20px;
     }
     
@@ -77,9 +74,7 @@
         
         padding-inline: 20px;
         padding-block: 20px;
-        /* border: 5px solid black; */
         font-size: 15px;
-        /* text-align: center; */
     }
     
     .footer p{
@@ -92,7 +87,7 @@
         padding: 10px;
     }
     
-    footer div p{ 
+    .linkprop{ 
 
         font-size: 15px;
     }
@@ -126,9 +121,7 @@
         
         padding-inline: 15px;
         padding-block: 15px;
-        /* border: 5px solid black; */
         font-size: 15px;
-        /* text-align: center; */
     }
     
     .footer p{
@@ -142,7 +135,7 @@
         padding: 5px;
     }
     
-    footer div p{ 
+    .linkprop{ 
         
         font-size: 10px;
     }
@@ -175,9 +168,7 @@
       
         padding-inline: 15px;
         padding-block: 15px;
-        /* border: 5px solid black; */
         font-size: 15px;
-        /* text-align: center; */
     }
     
     .footer p{
@@ -192,16 +183,31 @@
         padding: 5px;
     }
     
-    footer div p{ 
+    .linkprop{ 
         
         font-size: 10px;
     }
+    
     
     .pie__logo {
         width: 40px;
         
     }
     
+
+    .tarjetitass{
+        display: block;
+       
+    }
+
+    .pading-section {
+        padding: 20px 50px;
+    }
+
+    .margin-mobile {
+        margin-bottom: 50px;
+    }
+
 
 }
 
@@ -226,9 +232,7 @@
         
         padding-inline: 10px;
         padding-block: 10px;
-        /* border: 5px solid black; */
         font-size: 10px;
-        /* text-align: center; */
     }
     
     .footer p{
@@ -242,7 +246,7 @@
         padding: 3px;
     }
     
-    footer div p{ 
+    .linkprop{ 
         
         font-size: 7px;
     }
@@ -274,9 +278,7 @@
       
         padding-inline: 10px;
         padding-block: 10px;
-        /* border: 5px solid black; */
         font-size: 40px;
-        /* text-align: center; */
     }
     
     .footer p{
@@ -285,12 +287,12 @@
     }
     
     .linkred a{
-/* le agregue el tamaño de letra en cada media quares y tamb el del padding */
         font-size: 7px;
         padding: 3px;
     }
     
-    footer div p{ 
+    .linkprop{ 
+        
         font-size: 7px;
     }
     

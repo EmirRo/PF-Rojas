@@ -21,11 +21,11 @@
         padding-inline: 10px;
         text-align: center; 
     
-        &::first-line{
-            color: rgb(0, 0, 0);
-            font-size: 20px;
-            font-weight: bold;
-        }
+        // &::first-line{
+        //     color: rgb(0, 0, 0);
+        //     font-size: 20px;
+        //     font-weight: bold;
+        // }
         
         &::selection{
             background-color: $secondaryColor;

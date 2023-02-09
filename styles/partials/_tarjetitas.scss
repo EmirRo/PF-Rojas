@@ -24,12 +24,18 @@
         .informacion{
             padding: 0px 20px 20px 20px;
 
+            .tarjetita__titulo{
+                font-size: 20px;
+            }
+
             .vermas{
                 color: white;
                 text-decoration: none;
                 background-color:rgb(69, 68, 68) ;
                 border-radius: 5px;
-                padding-inline: 5px;
+                padding-inline: 10px;
+                padding-top: 10px;
+                padding-bottom: 10px;
             }
             
             

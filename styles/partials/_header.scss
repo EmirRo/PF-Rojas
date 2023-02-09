@@ -1,9 +1,18 @@
+.colorEnc{
+    background-color: gray;
 
-.navbar-brand:nth-child(1) {
-    background: rgb(93, 93, 93);
-    border: 5px solid #000000;
-    color: white;
-    padding: 20px;
-    
+    .container-fluid{
+
+        .navbar-brand:nth-child(1) {
+            background: rgb(93, 93, 93);
+            border: 5px solid #000000;
+            color: white;
+            padding: 20px;
+        }
+
+    }
 }
-    //no pude sacarlo en el estilo.css
+
+
+  
+    
